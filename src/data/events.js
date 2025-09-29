@@ -1,0 +1,90 @@
+export const dummyEvents = [
+  {
+    id: 1,
+    title: "Innovate & Create: The Annual Hackathon",
+    description:
+      "Join us for a 24-hour coding marathon. Build innovative solutions, compete for prizes, and network with top tech companies.",
+    photo:
+      "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1932&auto=format&fit=crop",
+    date: "2025-10-15",
+    time: "09:00 AM",
+    location: "Main Auditorium",
+    eventType: "hackathon",
+    organizedBy: "Computer Science Dept.",
+    organiserName: "Dr. Alan Turing",
+    contact: "555-0101",
+    views: 1250,
+    status: "confirmed",
+  },
+  {
+    id: 2,
+    title: "AI & Machine Learning Workshop",
+    description:
+      "A hands-on workshop covering the fundamentals of AI and ML. Perfect for beginners and enthusiasts.",
+    photo:
+      "https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=1720&auto=format&fit=crop",
+    date: "2024-08-22",
+    time: "10:00 AM - 04:00 PM",
+    location: "Lab 404, Tech Park",
+    eventType: "workshop",
+    guest: "Ms. Ada Lovelace",
+    organizedBy: "AI Club",
+    organiserName: "Prof. John McCarthy",
+    contact: "555-0102",
+    views: 850,
+    status: "confirmed",
+  },
+  {
+    id: 3,
+    title: "Spectrum '24: Annual Cultural Fest",
+    description:
+      "Experience a vibrant celebration of art, music, and dance. Featuring performances from renowned artists and student groups.",
+    photo:
+      "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=1674&auto=format&fit=crop",
+    date: "2025-10-10",
+    time: "06:00 PM onwards",
+    location: "University Grounds",
+    eventType: "cultural",
+    guest: "The Local Train (Band)",
+    organizedBy: "Student Council",
+    organiserName: "Priya Sharma",
+    contact: "555-0103",
+    views: 2300,
+    status: "",
+  },
+  {
+    id: 4,
+    title: "Alumni & Student Meetup",
+    description:
+      "An evening to connect with our esteemed alumni. Share experiences, gain insights, and expand your professional network.",
+    photo:
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1742&auto=format&fit=crop",
+    date: "2025-11-30",
+    time: "05:00 PM",
+    location: "Conference Hall",
+    eventType: "meetup",
+    organizedBy: "Alumni Association",
+    organiserName: "Mr. Raj Malhotra",
+    contact: "555-0104",
+    views: 450,
+    status: "confirmed",
+  },
+  {
+    id: 5,
+    title: "Guest Lecture on Quantum Computing",
+    description:
+      "A deep dive into the future of computing with our esteemed guest.",
+    photo:
+      "https://images.unsplash.com/photo-1617854818583-09e7f077a156?q=80&w=1740&auto=format&fit=crop",
+    date: "2025-10-05",
+    time: "02:00 PM",
+    location: "Physics Hall",
+    eventType: "workshop",
+    guest: "Dr. Harpreet Kaur",
+    organizedBy: "School of Science & Technology",
+    organiserName: "Dr. Mhashusudam Das",
+    contact: "555-0105",
+    views: 0,
+    status: "pending",
+  },
+];
